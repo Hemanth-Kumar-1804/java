@@ -1,0 +1,94 @@
+ import java.util.;
+
+ public class function_example
+ {
+     public static int multiply(int a,int b)
+     {
+         int product=ab;
+         return product;
+     }
+ 	public static void main(String[] args) 
+ 	{
+ 	    int a=6,b=7;
+ 	    int prod=multiply(a,b);
+ 		System.out.println(prod);
+ 	}
+ }
+
+ ----------------------------------------------------------------------------------
+
+ factorial example
+
+import java.util.;
+
+ public class function_example
+ {
+     public static int factorial(int n)
+     {
+       int f=1;
+       for(int i=1;i=n;i++)
+       {
+           f=fi;
+       }
+       return f;
+     }
+ 	public static void main(String[] args) 
+ 	{
+ 	    int n=5;
+ 	    int fact=factorial(n);
+ 		System.out.println(fact);
+ 	}
+ }
+
+ ----------------------------------------------------------------------------------
+ binomial coefficient
+
+ public class function_example
+ {
+     public static int factorial(int n)
+     {
+       int f=1;
+       for(int i=1;i=n;i++)
+       {
+           f=fi;
+       }
+       return f;
+     }
+    
+     public static int binomial_coff(int n,int r)
+     {
+         int n_fact=factorial(n);
+         int r_fact=factorial(r);
+         int n_r_fact=factorial(n-r);
+        
+         return n_fact(r_factn_r_fact);
+     }
+ 	public static void main(String[] args) 
+ 	{
+ 	    int n=5,r=2;
+ 	    int bin=binomial_coff(n,r);
+ 		System.out.println(bin);
+ 	}
+ }
+
+
+ ----------------------------------------------------------------------------------
+ overloading
+public class function_example
+{
+    public static int sum(int a,int b)
+    {
+       return a+b;
+    }
+    
+    public static int sum(int a,int b,int c)
+    {
+        return a+b+c;
+    }
+	public static void main(String[] args) 
+	{
+	    int a=5,b=2,c=2;
+	    int add=sum(a,b,c);
+		System.out.println(add);
+	}
+}
